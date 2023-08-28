@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    background-color: rgb(110, 29, 186);
+    height: 70px;
+    border-bottom: 3px solid green;
+    
+}
+
+.title {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bolder;
+    color: rgb(206, 206, 206);
+    
+}
+
+.logo {
+    width: 45px;
+    height: auto;
+    margin: 10px;
+    float: left;
+}
+
+.links {
+   float: right;
+   margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-right: 20px;
+    
+}
+
+.img1 {
+    width: 370px;
+    height: 220px;
+    margin-top: 35px;
+    border: 3px solid white;
+}
+
+.advertising {
+    background-color: rgb(158, 71, 239);
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-around;
+}
+
+.text1 {
+    width: 400px;
+}
+
+.button1 {
+    background-color: rgb(26, 152, 4);
+    font-size: 14px;
+    font-family:'Courier New', Courier, monospace;
+    height: 40px;
+}
+
+.button1:hover, .button2:hover {
+    background-color: white;
+}
+
+.description {
+    margin-top: -20px;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    text-align: center;
+    font-family: monospace;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.picturescontainer {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 20px;
+}
+
+.quote {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 33, 33);
+    padding: 70px;
+    font-style: italic;
+    color: rgb(115, 255, 115);
+}
+
+.continents {
+    width: 200px;
+    border: 4px solid rgb(107, 0, 174);
+    border-radius: 10%;
+}
+
+.quote1 {
+    font-size: 25px;
+    line-height: 2em;
+    width: 850px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.subscribecontainer {
+    background-color: black;
+    height: 300px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribecontainer2 {
+    background-color:  rgb(158, 71, 239);
+    height: 100px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+.text2 {
+    width: 700px;
+}
+
+.button2 {
+    height: 40px;
+    width: 100px;
+    align-self: center;
+    background-color: rgb(26, 152, 4);
+    font-size: 14px;
+    font-family:'Courier New', Courier, monospace;
+   
+}
+
+footer {
+    
+    height: 50px;
+    text-align: center;
+    background-color: rgb(110, 29, 186);
+    margin-top: auto;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
