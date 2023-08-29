@@ -3,6 +3,8 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
+
 header {
     background-color: rgb(110, 29, 186);
     height: 70px;
@@ -41,11 +43,19 @@ a {
     
 }
 
+a:hover {
+    color:rgb(26, 152, 4)
+}
+
 .img1 {
     width: 370px;
     height: 220px;
     margin-top: 35px;
     border: 3px solid white;
+}
+
+.img1:hover {
+    border: 4px solid rgb(14, 178, 14);
 }
 
 .advertising {
@@ -85,6 +95,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .pictures {
@@ -93,6 +104,18 @@ a {
     width: 200px;
     gap: 20px;
 }
+
+.continents {
+    width: 200px;
+    border: 4px solid rgb(107, 0, 174);
+    border-radius: 10%;
+}
+
+.continents:hover {
+    border: 4px solid white;
+}
+
+
 
 .quote {
     display: flex;
@@ -103,14 +126,10 @@ a {
     background-color: rgb(34, 33, 33);
     padding: 70px;
     font-style: italic;
-    color: rgb(115, 255, 115);
+    color: rgb(14, 178, 14);
 }
 
-.continents {
-    width: 200px;
-    border: 4px solid rgb(107, 0, 174);
-    border-radius: 10%;
-}
+
 
 .quote1 {
     font-size: 25px;
